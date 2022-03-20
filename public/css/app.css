@@ -719,20 +719,20 @@ select {
 .mt-32 {
   margin-top: 8rem;
 }
-.mb-8 {
-  margin-bottom: 2rem;
-}
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .ml-auto {
   margin-left: auto;
 }
 .mr-3 {
   margin-right: 0.75rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .block {
   display: block;
@@ -1136,17 +1136,17 @@ select {
 .pt-1 {
   padding-top: 0.25rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
-}
 .pl-3 {
   padding-left: 0.75rem;
 }
-.pr-4 {
-  padding-right: 1rem;
-}
 .pr-10 {
   padding-right: 2.5rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pr-4 {
+  padding-right: 1rem;
 }
 .text-left {
   text-align: left;
@@ -1521,6 +1521,10 @@ select {
 .micromodal-slide .modal__container,
   .micromodal-slide .modal__overlay {
     will-change: transform;
+  }
+.swiper {
+    /* width: 600px; */
+    height: 300px;
   }
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
