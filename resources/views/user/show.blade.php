@@ -84,7 +84,7 @@
                                 </div>
                                 <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">カートに入れる</button>
                                 <input type="hidden" name="product_id" value="{{ $product->id}}">    
-                            </form>>
+                            </form>
                             </div>
                         </div>
                     </div>
